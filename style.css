@@ -82,6 +82,7 @@ a:hover {
 .logo-text {
   font-weight: 700;
   letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .simple-nav {
@@ -92,10 +93,11 @@ a:hover {
 }
 
 .simple-nav a {
-  color: var(--color-text-muted);
+  color: #ffecec;
   text-decoration: none;
   padding: 6px 0;
   position: relative;
+  font-weight: 500;
 }
 
 .simple-nav a::after {
