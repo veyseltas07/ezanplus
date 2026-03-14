@@ -143,6 +143,14 @@ a:hover {
   gap: 40px;
 }
 
+.hero-logo {
+  width: 64px;
+  height: 64px;
+  margin: 0 0 16px;
+  display: block;
+  filter: drop-shadow(0 8px 16px rgba(229, 57, 53, 0.4));
+}
+
 .hero-text h1 {
   margin: 0 0 10px;
   font-size: clamp(2.4rem, 4vw, 3rem);
@@ -375,6 +383,12 @@ a:hover {
   .simple-nav {
     gap: 12px;
     font-size: 0.8rem;
+  }
+
+  .hero-logo {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 14px;
   }
 
   .hero-text h1 {
