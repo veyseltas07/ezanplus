@@ -83,18 +83,11 @@ a:hover {
   gap: 8px;
 }
 
-.logo-mark {
-  width: 28px;
-  height: 28px;
-  border-radius: 8px;
-  background: radial-gradient(circle at 20% 20%, #ffb3b1, #e53935 45%, #9b111e 100%);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  color: #fff;
-  font-size: 18px;
-  box-shadow: 0 12px 25px rgba(229, 57, 53, 0.5);
+.logo-icon {
+  width: 26px;
+  height: 26px;
+  display: block;
+  filter: drop-shadow(0 6px 10px rgba(229, 57, 53, 0.55));
 }
 
 .logo-text {
