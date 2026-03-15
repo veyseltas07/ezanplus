@@ -85,11 +85,13 @@
       contactTitle: "İletişim",
       contactBody:
         "Her türlü soru, öneri ve geri bildiriminiz için bize e‑posta gönderebilirsiniz.",
+      storeNote:
+        "Uygulama, Google Play ve Apple App Store mağaza kurallarına uygun olarak geliştirilmektedir. Yayın süreçleri tamamlandığında her iki mağazanın bağlantıları da bu sayfada yer alacaktır.",
       downloadTitle: "Google Play'den İndir",
       downloadBody:
         "Ezan Plus, yakında Google Play'de kullanıma sunulacaktır. Uygulama yayına alındığında, aşağıdaki butondan mağaza sayfasına ulaşabilirsiniz.",
       downloadNote:
-        'Kendi logonuzu kullanmak için yalnızca bu web sitesinin ana klasörüne <strong>logo.jpg</strong> adında bir görsel yerleştirmeniz yeterlidir.',
+        'Kendi logonuzu kullanmak için yalnızca bu web sitesinin ana klasörüne <strong>app_icon.png</strong> adında bir görsel yerleştirmeniz yeterlidir.',
       downloadCta: "Google Play'de Yakında",
     },
     en: {
@@ -149,18 +151,146 @@
       contactTitle: "Contact",
       contactBody:
         "You can send us an e‑mail for any questions, suggestions or feedback.",
+      storeNote:
+        "The app is being developed in accordance with Google Play and Apple App Store guidelines. Once the publishing process is complete, links to both stores will be provided on this page.",
       downloadTitle: "Download on Google Play",
       downloadBody:
         "Ezan Plus will soon be available on Google Play. Once the app is published, you will be able to access the store page from the button below.",
       downloadNote:
-        'To use your own logo, simply place an image named <strong>logo.jpg</strong> in the root folder of this website.',
+        'To use your own logo, simply place an image named <strong>app_icon.png</strong> in the root folder of this website.',
       downloadCta: "Coming soon on Google Play",
     },
-    // For now, other languages fall back to English text (can be translated later)
-    es: null,
-    az: null,
-    ru: null,
-    ar: null,
+    ar: {
+      appName: "Ezan Plus",
+      navFeatures: "المميزات",
+      navPrivacy: "الخصوصية",
+      navContact: "التواصل",
+      heroTitle: "Ezan Plus",
+      heroSubtitle: "مواقيت الصلاة، تنبيهات الأذان، وبوصلة القبلة لتركيا وما حولها.",
+      heroDescription:
+        "احصل على مواقيت صلاة دقيقة حسب موقعك، وتنبيهات أذان قابلة للتخصيص، وبوصلة قبلة سهلة الاستخدام في تطبيق واحد بسيط.",
+      heroCta: "قريباً على Google Play",
+      featuresTitle: "المميزات",
+      feature1Title: "مواقيت صلاة دقيقة",
+      feature1Body:
+        "اطّلع بسرعة على مواقيت الصلاة المحدثة لمدينتك. اختر مدينتك أو استخدم تحديد الموقع التلقائي لرؤية الوقت الصحيح دائماً.",
+      feature2Title: "تنبيهات الأذان",
+      feature2Body:
+        "استقبل تنبيهات صوت الأذان في أوقات الصلاة. يمكنك بسهولة ضبط الأوقات الصامتة واختيار الصلوات التي تريد التنبيه لها.",
+      feature3Title: "بوصلة القبلة",
+      feature3Body:
+        "استفد من بوصلة جهازك لتحديد اتجاه القبلة بطريقة عملية. واجهة واضحة تبين لك فوراً الاتجاه الذي يجب التوجه إليه.",
+      feature4Title: "واجهة بسيطة وسريعة",
+      feature4Body:
+        "تطبيق خفيف وسريع بدون تعقيد غير ضروري، مصمم للاستخدام اليومي للوصول السريع إلى المعلومات التي تحتاجها.",
+      privacyTitle: "سياسة الخصوصية",
+      privacyIntro:
+        'توضح سياسة الخصوصية هذه كيفية معالجة بياناتك الشخصية عند استخدامك لتطبيق Ezan Plus ("التطبيق"). باستخدامك للتطبيق، فإنك تقبل بالممارسات الموضحة في هذه السياسة.',
+      privacySection1Title: "1. البيانات التي نجمعها",
+      privacySection1Body:
+        "يستخدم التطبيق قدراً محدوداً من البيانات فقط لتقديم الوظائف الأساسية:",
+      privacySection2Title: "2. استخدام بيانات الموقع",
+      privacySection2Body:
+        "تُستخدم بيانات الموقع فقط لعرض مواقيت الصلاة واتجاه القبلة بدقة قدر الإمكان. منح صلاحية الموقع اختياري ويمكنك إيقافه في أي وقت من إعدادات جهازك.",
+      privacySection3Title: "3. الإشعارات",
+      privacySection3Body:
+        "قد يطلب التطبيق إذن الإشعارات لإرسال تنبيهات الأذان عند دخول مواقيت الصلاة. يمكنك تفعيل الإشعارات أو إيقافها من إعدادات جهازك في أي وقت.",
+      privacySection4Title: "4. تخزين البيانات ومشاركتها",
+      privacySection5Title: "5. خدمات الطرف الثالث",
+      privacySection5Body:
+        "قد يستخدم التطبيق خدمات خارجية لتتبع الأخطاء أو التحليلات أو الإشعارات. قد تقوم هذه الخدمات بمعالجة البيانات وفقاً لسياسات الخصوصية الخاصة بها. يتم ذكر هذه الخدمات في صفحة التطبيق على Google Play أو داخل التطبيق.",
+      privacySection6Title: "6. خصوصية الأطفال",
+      privacySection6Body:
+        "التطبيق موجه لجميع الفئات ولا يستهدف جمع بيانات شخصية من الأطفال عن قصد. يُنصح الآباء والأوصياء بمتابعة استخدام أطفالهم للتطبيق.",
+      privacySection7Title: "7. حقوقك",
+      privacySection7Body:
+        "قد يكون لك، وفقاً للقانون المعمول به، بعض الحقوق المتعلقة ببياناتك الشخصية، مثل الوصول أو التصحيح أو الحذف أو تقييد المعالجة.",
+      privacyContactIntro:
+        'لممارسة هذه الحقوق يمكنك التواصل معنا عبر عنوان البريد الإلكتروني الموجود في قسم <a href="#contact">التواصل</a>.',
+      privacySection8Title: "8. التغييرات على سياسة الخصوصية",
+      privacySection8Body:
+        "قد يتم تحديث سياسة الخصوصية هذه من وقت لآخر. عند إجراء تغييرات مهمة، قد نعلمك من خلال التطبيق أو المنصات ذات الصلة. تصبح التغييرات سارية بعد نشر النسخة الجديدة.",
+      privacySection9Title: "9. التواصل",
+      privacySection9Body:
+        "لأي أسئلة حول سياسة الخصوصية هذه أو بياناتك الشخصية، يمكنك التواصل معنا عبر البريد الإلكتروني أدناه:",
+      contactTitle: "التواصل",
+      contactBody:
+        "يمكنك إرسال بريد إلكتروني إلينا لأي أسئلة أو اقتراحات أو ملاحظات.",
+      storeNote:
+        "يتم تطوير التطبيق بما يتوافق مع قواعد ومتطلبات متجري Google Play و Apple App Store. بعد اكتمال عملية النشر ستتم إضافة روابط كلا المتجرين في هذه الصفحة.",
+      downloadTitle: "التحميل من Google Play",
+      downloadBody:
+        "سيكون تطبيق Ezan Plus متاحاً قريباً على Google Play. بعد نشر التطبيق، ستتمكن من الوصول إلى صفحة المتجر من الزر أدناه.",
+      downloadNote:
+        'لاستخدام شعارك الخاص، ضع صورة باسم <strong>app_icon.png</strong> في المجلد الرئيسي لهذا الموقع.',
+      downloadCta: "قريباً على Google Play",
+    },
+    ru: {
+      appName: "Ezan Plus",
+      navFeatures: "Возможности",
+      navPrivacy: "Конфиденциальность",
+      navContact: "Контакты",
+      heroTitle: "Ezan Plus",
+      heroSubtitle:
+        "Время молитв, уведомления азана и компас киблы для Турции и других стран.",
+      heroDescription:
+        "Получайте точные времена молитв в зависимости от вашего местоположения, настраиваемые уведомления азана и удобный компас киблы в одном простом приложении.",
+      heroCta: "Скоро в Google Play",
+      featuresTitle: "Возможности",
+      feature1Title: "Точное время молитв",
+      feature1Body:
+        "Быстро просматривайте актуальное и точное время молитв для вашего города. Всегда видьте правильное время благодаря выбору города и автоматическому определению местоположения.",
+      feature2Title: "Уведомления азана",
+      feature2Body:
+        "Получайте аудио‑уведомления азана во время молитв. Легко настраивайте тихие часы и выбирайте, для каких молитв нужны напоминания.",
+      feature3Title: "Компас киблы",
+      feature3Body:
+        "Используйте компас устройства, чтобы легко определить направление киблы. Понятный интерфейс сразу показывает, в какую сторону нужно повернуться.",
+      feature4Title: "Просто и быстро",
+      feature4Body:
+        "Лёгкий и быстрый интерфейс без лишней сложности. Разработано для ежедневного использования, чтобы вы могли получить нужную информацию в один шаг.",
+      privacyTitle: "Политика конфиденциальности",
+      privacyIntro:
+        'Настоящая Политика конфиденциальности объясняет, как обрабатываются ваши персональные данные при использовании мобильного приложения Ezan Plus ("Приложение"). Используя Приложение, вы принимаете практики, описанные в этой политике.',
+      privacySection1Title: "1. Собираемые данные",
+      privacySection1Body:
+        "Приложение использует ограниченный объём данных только для предоставления основных функций:",
+      privacySection2Title: "2. Использование данных о местоположении",
+      privacySection2Body:
+        "Данные о местоположении используются только для максимально точного отображения времени молитв и направления киблы. Предоставление доступа к геолокации является добровольным, вы можете отключить его в настройках устройства в любой момент.",
+      privacySection3Title: "3. Уведомления",
+      privacySection3Body:
+        "Приложение может запрашивать разрешение на отправку уведомлений, чтобы показывать азан во время молитв. Вы можете включать и отключать уведомления в настройках устройства в любое время.",
+      privacySection4Title: "4. Хранение и передача данных",
+      privacySection5Title: "5. Сторонние сервисы",
+      privacySection5Body:
+        "Приложение может использовать сторонние сервисы для отслеживания ошибок, аналитики или уведомлений. Эти сервисы могут обрабатывать данные в соответствии со своей политикой конфиденциальности. Используемые сервисы указываются в описании на Google Play или во внутренних уведомлениях приложения.",
+      privacySection6Title: "6. Конфиденциальность детей",
+      privacySection6Body:
+        "Приложение предназначено для широкой аудитории и не нацелено на сознательный сбор персональных данных детей. Родителям и опекунам рекомендуется контролировать использование приложения детьми.",
+      privacySection7Title: "7. Ваши права",
+      privacySection7Body:
+        "В зависимости от применимого законодательства вы можете иметь следующие права в отношении ваших персональных данных: доступ, исправление, удаление, ограничение обработки и др.",
+      privacyContactIntro:
+        'Чтобы воспользоваться этими правами, вы можете связаться с нами по адресу электронной почты, указанному в разделе <a href="#contact">Контакты</a>.',
+      privacySection8Title: "8. Изменения в Политике конфиденциальности",
+      privacySection8Body:
+        "Настоящая Политика конфиденциальности может время от времени обновляться. При существенных изменениях мы можем уведомить вас через Приложение или соответствующие платформы. Изменения вступают в силу после публикации новой версии.",
+      privacySection9Title: "9. Контакты",
+      privacySection9Body:
+        "По любым вопросам о Политике конфиденциальности или ваших персональных данных вы можете связаться с нами по адресу электронной почты ниже:",
+      contactTitle: "Контакты",
+      contactBody:
+        "Вы можете написать нам по электронной почте по любым вопросам, предложениям или отзывам.",
+      storeNote:
+        "Приложение разрабатывается в соответствии с правилами магазинов Google Play и Apple App Store. После завершения публикации ссылки на оба магазина будут доступны на этой странице.",
+      downloadTitle: "Скачать в Google Play",
+      downloadBody:
+        "Приложение Ezan Plus скоро будет доступно в Google Play. После публикации вы сможете открыть страницу магазина по кнопке ниже.",
+      downloadNote:
+        'Чтобы использовать собственный логотип, поместите изображение с именем <strong>app_icon.png</strong> в корневую папку этого сайта.',
+      downloadCta: "Скоро в Google Play",
+    },
   };
 
   const fallbackLang = "en";
@@ -173,8 +303,6 @@
       (navigator.language || navigator.userLanguage || "en").toLowerCase();
     if (navLang.startsWith("tr")) return "tr";
     if (navLang.startsWith("ar")) return "ar";
-    if (navLang.startsWith("es")) return "es";
-    if (navLang.startsWith("az")) return "az";
     if (navLang.startsWith("ru")) return "ru";
     return "en";
   }
