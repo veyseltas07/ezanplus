@@ -79,10 +79,33 @@ a:hover {
   gap: 8px;
 }
 
+.logo-img {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.35);
+}
+
 .logo-text {
   font-weight: 700;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+
+.lang-switcher {
+  margin-left: 16px;
+}
+
+.lang-switcher select {
+  background: rgba(15, 23, 42, 0.95);
+  color: #f9fafb;
+  border-radius: 999px;
+  border: 1px solid rgba(249, 250, 251, 0.2);
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  outline: none;
 }
 
 .simple-nav {
@@ -302,6 +325,62 @@ a:hover {
   margin-bottom: 4px;
 }
 
+.download-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: 28px;
+  align-items: center;
+}
+
+.download-info p {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+.download-note {
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1px dashed rgba(229, 57, 53, 0.5);
+  background: rgba(229, 57, 53, 0.06);
+}
+
+.download-badge-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.app-logo-card {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 14px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(229, 57, 53, 0.18));
+  box-shadow: var(--shadow-subtle);
+  border: 1px solid rgba(229, 57, 53, 0.35);
+}
+
+.app-logo-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.55);
+}
+
+.app-logo-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fee2e2;
+}
+
 .contact-email {
   margin-top: 10px;
   font-size: 1rem;
@@ -343,6 +422,10 @@ a:hover {
   }
 
   .features-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .download-grid {
     grid-template-columns: minmax(0, 1fr);
   }
 }
